@@ -19,10 +19,10 @@ public class UserService {
         franklio.setEmpId(112244);
         franklio.setSalary(2.00);
 
-        User innocent = new User();
-        innocent.setUser("Innocent");
-        innocent.setEmpId(114);
-        innocent.setSalary(2000.00);
+        User Innocent = new User();
+        Innocent.setUser("Innocent");
+        Innocent.setEmpId(114);
+        Innocent.setSalary(2000.00);
 
 
         User Erastus = new User();
@@ -33,7 +33,7 @@ public class UserService {
 
 
         users.put(franklio.getUser(), franklio);
-        users.put(innocent.getUser(), innocent);
+        users.put(Innocent.getUser(), Innocent);
         users.put(Erastus.getUser(), Erastus);
     }
 
